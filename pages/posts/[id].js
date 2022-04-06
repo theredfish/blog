@@ -56,8 +56,8 @@ export default function Post({ postData }) {
         />
       </Head>
 
-      <article className="relative w-full lg:mx-auto lg:max-w-4xl px-5 bg-none pt-8 lg:pb-28">
-        <div className="prose prose-zinc prose-a:text-red-400 prose-a:hover:to-red-500 prose-a:no-underline prose-h1:text-4xl prose-lg dark:prose-invert max-w-3xl mx-auto">
+      <article className="relative w-full lg:mx-auto lg:max-w-4xl px-5 bg-none pt-8 lg:pb-5">
+        <div className="prose prose-zinc prose-a:text-red-400 prose-a:hover:to-red-500 prose-a:no-underline prose-h1:text-4xl prose-md lg:prose-lg dark:prose-invert max-w-3xl mx-auto">
           <div>
             <Date dateString={postData.date} />
           </div>
