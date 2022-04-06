@@ -56,7 +56,6 @@ export default function Layout({ children, home }) {
           content={siteDescription}
           key="twitter_descr"
         />
-        <meta property="twitter:image" content={siteImage} />
       </Head>
       <header>
         {home && (
@@ -83,12 +82,21 @@ export default function Layout({ children, home }) {
           <div className="pt-16 pl-5 md:pl-0 md:max-w-3xl md:mx-auto">
             <Link href="/">
               <a className="rounded ring-1 ring-zinc-400 hover:ring-zinc-500 py-2 px-4">
-                ← Go back
+                ← Home
               </a>
             </Link>
           </div>
         )}
         {children}
+        {!home && (
+          <div className="pt-5 pb-8 pl-5 md:pl-0 md:max-w-3xl md:mx-auto">
+            <Link href="/">
+              <a className="rounded ring-1 ring-zinc-400 hover:ring-zinc-500 py-2 px-4">
+                ← Home
+              </a>
+            </Link>
+          </div>
+        )}
       </main>
     </div>
   );
