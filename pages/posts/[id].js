@@ -1,6 +1,7 @@
+import Date from "../../components/date";
+import DisqusComments from "../../components/comments";
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
-import Date from "../../components/date";
 import Head from "next/head";
 
 const siteUrl = "https://theredfi.sh";
@@ -38,7 +39,17 @@ export default function Post({ postData }) {
           content={`${siteUrl}/posts/${postData.id}`}
           key="og_url"
         />
-
+        <meta
+          property="og:image"
+          content={`${siteUrl}/images/blog/${postData.id}/${postData.image}`}
+          key="og_image"
+        />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:image"
+          content={`${siteUrl}/images/blog/${postData.id}/${postData.image}`}
+          key="twitter_image"
+        />
         <meta
           property="twitter:title"
           content={postData.title}
@@ -56,8 +67,8 @@ export default function Post({ postData }) {
         />
       </Head>
 
-      <article className="relative w-full lg:mx-auto lg:max-w-4xl px-5 bg-none pt-8 lg:pb-28">
-        <div className="prose prose-zinc prose-a:text-red-400 prose-a:hover:to-red-500 prose-a:no-underline prose-h1:text-4xl prose-lg dark:prose-invert max-w-3xl mx-auto">
+      <article className="relative w-full lg:mx-auto lg:max-w-4xl px-5 bg-none pt-8 lg:pb-5">
+        <div className="prose prose-zinc prose-a:text-red-400 prose-a:hover:to-red-500 prose-a:no-underline prose-h1:text-4xl prose-md lg:prose-lg dark:prose-invert max-w-3xl mx-auto">
           <div>
             <Date dateString={postData.date} />
           </div>
@@ -67,6 +78,10 @@ export default function Post({ postData }) {
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </div>
       </article>
+
+      <div className="pt-5 pb-8 px-5 md:pl-0 md:max-w-3xl md:mx-auto">
+        <DisqusComments post={postData} />
+      </div>
     </Layout>
   );
 }
