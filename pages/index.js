@@ -15,41 +15,27 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
-      <section className="antialiased mx-4 md:w-5/6 lg:w-3/6 md:mx-auto">
-        <h1 className="text-center text-lg md:text-2xl">
-          Software Development Engineer in Test, Consultant, Maker.
-        </h1>
-        <p className="text-center mt-8 text-lg md:text-xl">
-          I{" "}
-          <Link href="https://www.malt.fr/profile/didierjulian">
-            <a>help</a>
-          </Link>{" "}
-          companies to design fast and reliable testing solutions and build web
-          services in Rust. I also develop tools and systems for vertical
-          farming and during my free time I make video games.
-          <br />
-          Available on{" "}
-          <Link href="https://github.com/theredfish">
-            <a>Github</a>
-          </Link>{" "}
-          and{" "}
-          <Link href="https://twitter.com/theredfi_sh">
-            <a>Twitter</a>
-          </Link>
-          .
+      <section className="w-full md:w-5/6 md:max-w-3xl mt-8">
+        <p>
+          I'm currently busy with <a href="https://owlduty.com">Owl Duty</a>, a
+          test platform I've been waiting to build for a long time. I also make
+          video games and related content that you can find on{" "}
+          <a href="https://indiedevcasts.com">Indiedevcasts</a>. See my{" "}
+          <a href="https://github.com/theredfish">Github</a> for open source
+          stuff.
         </p>
       </section>
 
-      <section className="antialiased mx-4 md:w-5/6 lg:w-3/6 md:mx-auto mt-10">
-        <h2 className="text-2xl md:text-3xl">Blog posts</h2>
+      <section className="mt-10">
+        <h2 className="text-base lg:text-lg font-semibold">Posts</h2>
         <ul className="mt-4">
           {allPostsData.map(({ id, date, title }) => (
             <li key={id} className="mb-3">
               <Link href={`/posts/${id}`}>
-                <a className="text-lg md:text-xl">{title}</a>
+                <a className="text-base lg:text-lg ">{title}</a>
               </Link>
               <br />
-              <span className="text-base md:text-lg">
+              <span className="text-sm ">
                 <Date dateString={date} />
               </span>
             </li>

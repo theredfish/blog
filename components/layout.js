@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const name = "Julian Didier";
+const shortDescription = "Software developer, gamedev, solarpunk";
 const siteTitle = "theredfi.sh";
 const siteDescription = "Written material by theredfi.sh.";
 const siteUrl = "https://theredfi.sh";
@@ -56,29 +57,28 @@ export default function Layout({ children, home }) {
           key="twitter_descr"
         />
       </Head>
-      <header>
+      <header className="mx-4 md:w-5/6 lg:w-3/6 md:mx-auto mt-8">
         {home && (
           <>
-            <div className="mx-auto w-2/5 my-5">
-              <div className="relative h-32 w-32 md:h-52 md:w-52 mx-auto">
-                <Image
-                  priority
-                  src="/images/profile.jpg"
-                  layout="fill"
-                  objectFit="cover"
-                  alt={name}
-                  className="rounded-full"
-                />
-              </div>
-              <h1 className="text-2xl text-center font-bold mt-2">{name}</h1>
+            <div className="relative h-24 w-24 md:h-32 md:w-32">
+              <Image
+                priority
+                src="/images/profile.jpg"
+                layout="fill"
+                objectFit="cover"
+                alt={name}
+                className="rounded-full"
+              />
             </div>
+            <h1 className="text-xl font-semibold mt-4">{name}</h1>
+            <h2 className="text-lg">{shortDescription}</h2>
           </>
         )}
       </header>
 
-      <main className="">
+      <main className="antialiased mx-4 md:w-5/6 lg:w-3/6 md:mx-auto">
         {!home && (
-          <div className="pt-16 pl-5 md:pl-0 md:max-w-3xl md:mx-auto">
+          <div className="pt-8 px-5 pb-5 w-full lg:mx-auto lg:max-w-3xl">
             <Link href="/">
               <a className="rounded ring-1 ring-zinc-400 hover:ring-zinc-500 py-2 px-4">
                 ← Home
@@ -86,7 +86,9 @@ export default function Layout({ children, home }) {
             </Link>
           </div>
         )}
-        {children}
+
+        <div className="text-base lg:text-lg">{children}</div>
+
         {!home && (
           <div className="pt-5 pb-8 pl-5 md:pl-0 md:max-w-3xl md:mx-auto">
             <Link href="/">
