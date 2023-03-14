@@ -1,6 +1,6 @@
 ---
-title: "Bootstraping a SaaS, indie hacker is a lonely journey"
-description: "The past few months I beginned to work full-time on my projects, which is quite a lonely journey."
+title: "Bootstrapping a SaaS, indie hacker is a lonely journey"
+description: "Over the past few months I've started working full-time on my projects, which is a pretty lonely journey."
 image: "cover.png"
 date: "2023-03-14"
 ---
@@ -14,15 +14,15 @@ Being an indie hacker means for me the ability to define your own schedule, your
 So far, I do all the development, from UI to microservices to infrastructure and I really enjoy using all of my skills. I even open sourced my service's [core library](https://github.com/owlduty/grillon) for those who want to run API tests in Rust. It's like going back to the basics of software engineering where there are no silos and where you build everything from scratch (idea to product). Even the marketing part is interesting, I try to keep an authentic message and I will explore other channels than social medias ([see why](/posts/time-to-get-away-from-social-networks)).
 
 <figure>
-    <img class="mx-auto" src="/images/blog/bootstraping-a-saas-indie-hacker-lonely-journey/owl-duty-alpha-0-1-0-req-builder-preview.gif" alt="A preview of the request build for Owl Duty">
+    <img class="mx-auto" src="/images/blog/bootstrapping-a-saas-indie-hacker-lonely-journey/owl-duty-alpha-0-1-0-req-builder-preview.gif" alt="A preview of the request build for Owl Duty">
     <figcaption class="text-center">A preview of the request builder for Owl Duty</figcaption>
 </figure>
 
 But there is one thing that I don't appreciate at all: indie hacker is a lonely journey. And I underastimated the weight of making decisions alone. It's just hard! I love having this chat over coffee, even virtual, and sharing ups and downs. Being with people / someone sharing the same mindset.
 
-## About bootstraping and hiring
+## About bootstrapping and hiring
 
-Why don't you hire someone or find a co-founder? This is the first thing that came to your mind right? I also thought about it. But here is the thing: when you're bootstraping you have no money, just your savings to pay your bills and provide stability for your family. I don't want to touch investors' money, at least not now.
+Why don't you hire someone or find a co-founder? This is the first thing that came to your mind right? I also thought about it. But here is the thing: when you're bootstrapping you have no money, just your savings to pay your bills and provide stability for your family. I don't want to touch investors' money, at least not now.
 
 In my opinion this can be quite harmful for the company and the entrepreneur in the long term: lack of freedom and control, deadlines pressure, partial ownership, ... Money is power. What happens when you secure funds? You have the ability to hire, build your infrastructure, pay your bills... but yet your business doesn't generate any revenue.
 
