@@ -3,11 +3,33 @@
 @tailwind utilities;
 
 @layer base {
-    a {
-        @apply text-red-400 hover:text-red-500;
-    }
+  a {
+    @apply text-red-400 hover:text-red-500;
+  }
 
-    a>img {
-        @apply border-2 border-zinc-500 hover:border-zinc-400;
-    }
+  a > img {
+    @apply border-2 border-zinc-500 hover:border-zinc-400;
+  }
+
+  figure figcaption {
+    @apply text-center;
+  }
+}
+
+@layer utilities {
+  .prose :where(iframe):not(:where([class~="not-prose"] *)) {
+    @apply aspect-video w-full h-auto;
+  }
+
+  .prose :where(img.max-size-md):not(:where([class~="not-prose"] *)) {
+    @apply w-2/3 md:w-1/2 h-auto;
+  }
+
+  .prose :where(img.max-size-lg):not(:where([class~="not-prose"] *)) {
+    @apply w-full md:w-3/5 h-auto;
+  }
+
+  .prose :where(img.max-size-xl):not(:where([class~="not-prose"] *)) {
+    @apply w-full md:w-4/5 h-auto;
+  }
 }
