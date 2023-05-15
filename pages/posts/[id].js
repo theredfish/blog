@@ -1,5 +1,4 @@
 import Date from "../../components/date";
-import DisqusComments from "../../components/comments";
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
@@ -78,10 +77,6 @@ export default function Post({ postData }) {
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </div>
       </article>
-
-      <div className="pt-5 pb-8 px-5 md:pl-0 md:max-w-3xl md:mx-auto">
-        <DisqusComments post={postData} />
-      </div>
     </Layout>
   );
 }
