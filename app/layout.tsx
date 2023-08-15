@@ -7,12 +7,7 @@ const siteDescription = "Written material by Julian Didier (theredfish).";
 const logoPath = "/metadata_logo.png";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    `${
-      `https://${process.env.VERCEL_URL}` ||
-      `http://localhost:${process.env.PORT || 3000}`
-    }`
-  ),
+  metadataBase: new URL(`${process.env.NEXT_PUBLIC_URL}`),
   title: siteTitle,
   description: siteDescription,
   keywords: "testing, rust, postgresql, api, http, gamedev, solarpunk",
