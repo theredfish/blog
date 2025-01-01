@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_URL}`),
   title: siteTitle,
   description: siteDescription,
-  keywords: "testing, rust, postgresql, api, http, gamedev, solarpunk",
+  keywords: "rust, agritech, embedded development",
   icons: [
     {
       url: "/apple-touch-icon.png",

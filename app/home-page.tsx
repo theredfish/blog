@@ -5,7 +5,7 @@ import Date from "@components/date";
 import Link from "next/link";
 
 const name = "Julian Didier";
-const shortDescription = "Software developer, gamedev, solarpunk";
+const shortDescription = "Rust, embedded development, gamedev, solarpunk";
 
 export default async function HomePage() {
   const posts = await getSortedPostsData();
@@ -28,17 +28,17 @@ export default async function HomePage() {
         <h2 className="text-lg">{shortDescription}</h2>
       </header>
       <section className="mx-4 md:w-5/6 lg:w-3/6 md:mx-auto">
-        <div className="w-full md:w-5/6 md:max-w-3xl mt-8 text-base lg:text-lg">
-          <p>
-            I&apos;m currently busy with{" "}
-            <a href="https://owlduty.com">Owl Duty</a>, a test platform
-            I&apos;ve been waiting to build for a long time. I also make video
-            games and related content that you can find on{" "}
-            <a href="https://indiedevcasts.com">Indiedevcasts</a>. See my{" "}
-            <a href="https://github.com/theredfish">Github</a> for open source
-            stuff.
+        {/* <div className="w-full md:w-5/6 md:max-w-3xl mt-8 text-base lg:text-lg"> */}
+        <blockquote className="p-4 my-4 bg-gray-50 border-l-4 border-gray-300 dark:border-zinc-500 dark:bg-zinc-800">
+          <p className="text-base lg:text-lg leading-relaxed">
+            This blog is my digital garden—a space for sharing my thoughts,
+            articles, projects and, soon, photography. I aim to own my content
+            and avoid relying too much on social media, knowing they could
+            change or disappear one day. Here, everything stays. No tracking, no
+            cookies, no newsletters. Just RSS feeds.
           </p>
-        </div>
+        </blockquote>
+        {/* </div> */}
 
         <div className="mt-10">
           <h2 className="text-base lg:text-xl font-semibold inline-flex items-start">
