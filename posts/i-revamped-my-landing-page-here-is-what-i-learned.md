@@ -5,9 +5,9 @@ image: "cover.png"
 date: "2023-05-15"
 ---
 
-Hey there, I'm building [Owl Duty](https://owlduty.com) a SaaS for developers and testers to monitor and test their APIs. After sharing my landing page with friends, developers and indie hackers I realized my copywriting wasn't good. I was too vague. So I took time to revamp my landing page and here's what I learned along with some personal tips.
+Hey there, I'm building Owl Duty a SaaS for developers and testers to monitor and test their APIs. After sharing my landing page with friends, developers and indie hackers I realized my copywriting wasn't good. I was too vague. So I took time to revamp my landing page and here's what I learned along with some personal tips.
 
-[![test](/images/blog/i-revamped-my-landing-page-here-is-what-i-learned/cover.png)](https://owlduty.com)
+![Owl Duty's landing page](/images/blog/i-revamped-my-landing-page-here-is-what-i-learned/cover.png)
 
 ## 🏋️‍♂️Your landing page is like an exercise
 

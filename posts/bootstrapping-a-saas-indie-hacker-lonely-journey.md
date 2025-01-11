@@ -5,13 +5,13 @@ image: "cover.png"
 date: "2023-03-14"
 ---
 
-In november 2022 I decided to dedicate myself full-time to building [Owl Duty](https://owlduty.com), a test and monitoring SaaS. After 7 years of experience as a Software Developement Engineer in Test, the idea of bringing all my knowledge in a single SaaS emerged.
+In november 2022 I decided to dedicate myself full-time to building Owl Duty, a test and monitoring SaaS. After 7 years of experience as a Software Developement Engineer in Test, the idea of bringing all my knowledge in a single SaaS emerged.
 
 ## The indie hacker thing
 
 Being an indie hacker means for me the ability to define your own schedule, your organization and to build a project that can generate a recurring revenue. It's not true for everyone but I would add that you have to love what you create and if possible have an unfair advantage (or create one, I'll talk about that later).
 
-So far, I do all the development, from UI to microservices to infrastructure and I really enjoy using all of my skills. I even open sourced my service's [core library](https://github.com/owlduty/grillon) for those who want to run API tests in Rust. It's like going back to the basics of software engineering where there are no silos and where you build everything from scratch (idea to product). Even the marketing part is interesting, I try to keep an authentic message and I will explore other channels than social medias ([see why](/posts/time-to-get-away-from-social-networks)).
+So far, I do all the development, from UI to microservices to infrastructure and I really enjoy using all of my skills. I even open sourced my service's [core library](https://github.com/theredfish/grillon) for those who want to run API tests in Rust. It's like going back to the basics of software engineering where there are no silos and where you build everything from scratch (idea to product). Even the marketing part is interesting, I try to keep an authentic message and I will explore other channels than social medias ([see why](/posts/time-to-get-away-from-social-networks)).
 
 <figure>
     <img class="mx-auto" src="/images/blog/bootstrapping-a-saas-indie-hacker-lonely-journey/owl-duty-alpha-0-1-0-req-builder-preview.gif" alt="A preview of the request build for Owl Duty">
