@@ -83,7 +83,7 @@ Now, you maybe need to use your own http client and not the one provided by Gril
 
 You can use the `Response` trait and define how to use the different elements composing the http response
 (status, json and headers). In this example I'm using [reqwest](https://github.com/seanmonstar/reqwest) and since we
-can't implement a `Trait` on a type that is not defined in the current crate, we will need a wrapper. For a more complete example you can check this [test](https://github.com/theredfish/grillon/blob/main/tests/assert/assert_builder.rs).
+can't implement a `Trait` on a type that is not defined in the current crate, we will need a wrapper. For a more complete example you can check this [test](https://github.com/theredfish/grillon/blob/main/tests/assert/surf_impl.rs).
 
 First we need to implement the trait :
 

@@ -5,7 +5,7 @@ image: "grillon_cover.png"
 date: "2023-01-31"
 ---
 
-This blog post was originally posted on [dev.to](https://dev.to/owlduty/grillon-the-expressive-rust-library-to-test-your-http-apis-52om) but while waiting the [Owl Duty](https://owlduty.com) blog, I prefer to host my content now.
+This blog post was originally posted on [dev.to](https://dev.to/owlduty/grillon-the-expressive-rust-library-to-test-your-http-apis-52om) but I prefer to host my content here.
 
 ## About Grillon
 
@@ -85,7 +85,7 @@ Mainly when you want to test live APIs, here is a non-exhaustive list:
 - Automated API calls (scripts)
 - E2E API tests
 
-It really depends on your needs. The thing is, Grillon is flexible and as long as you want to automate API calls, it will be a good choice. Note however that some features are missing(*) for the moment (client certificates, HTTP 2, ...). I'm on it! If you're interested in a particular feature or would like to contribute, you can check the [issues](https://github.com/owlduty/grillon/issues).
+It really depends on your needs. The thing is, Grillon is flexible and as long as you want to automate API calls, it will be a good choice. Note however that some features are missing(*) for the moment (client certificates, HTTP 2, ...). I'm on it! If you're interested in a particular feature or would like to contribute, you can check the [issues](https://github.com/theredfish/grillon/issues).
 
 (*) _but you can still provide your own http client and response handler by implementing the `Response` trait ([see api doc](https://docs.rs/grillon/latest/grillon/response/trait.Response.html))._
 
