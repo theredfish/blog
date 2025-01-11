@@ -1,7 +1,7 @@
 ---
 title: "Moving into Embedded Development"
 description: "After spending 8 years in software development, it's time to move further with embedded development!"
-image: "moving-to-embedded-dev.jpg"
+image: "moving-into-embedded-dev.jpg"
 date: "2025-01-05"
 ---
 
