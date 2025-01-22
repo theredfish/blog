@@ -10,28 +10,28 @@ Nvidia GTX 1660 Ti, with a complete new build! A workstation. I'll keep my lapto
 
 ## Average tool, big problems
 
-I can't stress enough how bad my situation was during those last 2 years. I started to do game development with Bevy,
-a Rust game engine. You know how much time it takes to compile big projects right? Well you don't know enough because
-you have good machines. Most of the time people couldn't comprehend my issues and how frustrating it was to wait
-several minutes to see a simple line change to be recompiled. I was using the Rust nightly channel, and followed all the
-recommendations from the [Bevy documentation](https://bevyengine.org/learn/quick-start/getting-started/setup/):
+I can't stress enough how bad my situation was over the last couple of years. I started developing games with Bevy, a
+Rust game engine. You know about the compile time in Rust, right? However, you all have good machines. 90% of you have
+MacBook Pros and I don't think you need to **wait** several minutes for a one-line change (with incremental
+compilation). I assure you that I have taken care to follow all the recommendations in the
+[Bevy documentation](https://bevyengine.org/learn/quick-start/getting-started/setup/):
 
+- Nightly channel
 - Dynamic Linking
 - Generic sharing
-- Installing the LLD linker
-- Various performance optimization configs
+- Using the LLD linker
+- Various performance optimizations
 
-I reached a point where doing game development with Bevy and Rust wasn't possible anymore. I switched to Godot, while it
-was better it didn't fix all my issues. I was streaming my game development and running Blender, building my game and
-broadcasting on both Twitch and YouTube just didn't work. Too much workload for my system. In addition I'm running out
-of storage. At the time of writing I only have 300mb left on my system disk (SSD of 500 GB), I literally live in the
-past where each kb counts. It's also bad for security since I can't install any new Windows updates!
+I reached a point where developing games with Bevy and Rust was no longer possible. I switched to Godot. While it
+was much better, it didn't solve all my problems. I was streaming my game development on Twitch and YouTube, using
+Blender, Magicavoxel, Godot and building my game at the same time. It was too much work for my system.
+Also I don't have much storage left. As I write this, I only have 300MB left on my system drive (500GB SSD), I am
+literally living in the past where every KB counts. It's also bad for security because I can't install any Windows
+updates!
 
-I made the hard decision of putting game development and streaming on hold until I can save enough to buy a workstation.
-I also had to avoid Docker in WSL since the VM is installed on my system disk. It was quickly filling all my space and
-pruning containers or images didn't help much. Impossible to cross-compile on a ARM arch with system dependencies?
-Damn! I've just started a new project as described in my article [Moving into Embedded Development](/posts/moving-into-embedded-dev), and I couldn't accept to be stopped once again. It was time to use my 1,5 years of savings and buy a
-fresh new workstation tailored for my needs.
+I made the difficult decision to put game development and streaming on hold until I could save up enough to buy a
+workstation. I also had to avoid Docker in WSL since the VM is installed on my system disk. It was quickly filling up
+all my space and pruning unused containers or images didn't help much. I couldn't cross-compile on an ARM architecture with system dependencies. Damn! I had just started my new project that I talked about in my article [Moving into Embedded Development](/posts/moving-into-embedded-dev), and I couldn't accept being stopped again. It was time to use my 1.5 years of savings and buy a new workstation tailored to my needs.
 
 ## No more laptop
 
@@ -69,7 +69,7 @@ capabilities.
 ## The research
 
 I just want to share what I used to find the different parts, since I'm not really an expert in hardware. I can't
-recommend [PC Part Picker enough](https://pcpartpicker.com). Not only you get access for free to a huge database, but you get warnings and recommendations if some parts are incompatible or might not fit the case size for example.
+recommend [PC Part Picker](https://pcpartpicker.com) enough. Not only you get access for free to a huge database, but you get warnings and recommendations if some parts are incompatible or might not fit the case size for example.
 
 I also used ChatGPT to get recommendations based on my usage. If you want you can even use the open source [PC Part
 Picker dataset](https://github.com/docyx/pc-part-dataset) to feed ChatGPT with some more data. Special thanks to
