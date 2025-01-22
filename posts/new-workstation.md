@@ -1,5 +1,5 @@
 ---
-title: "New workstation: Farewell Problems"
+title: "New workstation: No more headaches"
 description: "A new workstation for software and game development."
 image: "new_workstation_cover.jpg"
 date: "2025-01-22"
