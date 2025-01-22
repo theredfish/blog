@@ -5,8 +5,7 @@ image: "new_workstation_cover.jpg"
 date: "2025-01-22"
 ---
 
-After many years of good service from my Lenovo Legion. It's time to replace its Intel i5, 8GB of RAM and its poor
-Nvidia GTX 1660 Ti, with a complete new build! A workstation. I'll keep my laptop for travel and lite work.
+After many years of good and loyal services from my Lenovo Legion; it's time to replace its Intel i5, its 8GB of RAM and its poor Nvidia GTX 1660 Ti, with a brand new setup! A workstation. I'll keep my laptop for travel and light work.
 
 ## Average tool, big problems
 
@@ -35,9 +34,9 @@ all my space and pruning unused containers or images didn't help much. I couldn'
 
 ## No more laptop
 
-Buying a new machine is not a simple decision when the price represents almost a month of your salary. It is a big
-investment, at least for me. From experience laptops cost a lot because you can't save on the different parts and you
-pay the portability. Also the main drawback is that it's difficult to replace or upgrade your hardware over time. A workstation makes a lot more sense in my case since I have important workloads:
+Buying a new machine is not an easy decision when the price is almost a month's salary. It's a big investment, at least
+for me. From experience, laptops are expensive because you can't save on the different parts and you pay on the optimization of space for the portable aspect. The main disadvantage is is also that it is difficult to replace or
+upgrade your hardware over time. A workstation makes much more sense in my case since I have heavy workloads:
 
 - Streaming (OBS - 2 channels - 1080p)
 - Video recording / editing
@@ -47,11 +46,11 @@ pay the portability. Also the main drawback is that it's difficult to replace or
 - Virtualization
 - Running games (mine or AA/AAA games)
 
-And all of these tasks must be able to run concurrently.
+And most of these tasks must be able to be performed simultaneously.
 
 ## The workstation
 
-I will update this section with the final build once it's done! Here are the different parts:
+I will update this section with some pictures of my installationonce it's finished! Here are the different parts:
 
 - **Motherboard**: Asus ROG Strix X670E-E, PCIe 5, Wifi 6E
 - **CPU**: AMD Ryzen™ 9 7950X Processeur 16-core (32 threads),  PCIe 5, 5.7 GHz
@@ -62,29 +61,32 @@ I will update this section with the final build once it's done! Here are the dif
 - **SSD**: Samsung 990 Pro NVMe M.2 PCIe 4.0
 - **GC**: GeForce RTX 4070 Ti Super WINDFORCE OC 16G
 
-What a nice setup! It should be future-proof and handle all my tasks without any problem. I will reuse my good old tower
-case, a Cooler Master HAF XM ATX. The case should be compatible with my different parts and have great ventilation
+This setup should be future-proof and handle all my tasks without any issues. I will reuse my good old tower
+case, a Cooler Master HAF XM ATX. The case should be compatible with my various parts and have great ventilation
 capabilities.
 
 ## The research
 
-I just want to share what I used to find the different parts, since I'm not really an expert in hardware. I can't
-recommend [PC Part Picker](https://pcpartpicker.com) enough. Not only you get access for free to a huge database, but you get warnings and recommendations if some parts are incompatible or might not fit the case size for example.
+I just want to share what I used to find the different parts, since I'm not really an hardware expert. I can't
+recommend [PC Part Picker](https://pcpartpicker.com) enough. Not only do you get access to a huge database for free, but
+you get warnings and recommendations if some parts are incompatible or don't fit the case size for example.
 
-I also used ChatGPT to get recommendations based on my usage. If you want you can even use the open source [PC Part
-Picker dataset](https://github.com/docyx/pc-part-dataset) to feed ChatGPT with some more data. Special thanks to
+I also used ChatGPT to get recommendations based on my usage. If you want, you can even use the open source [PC Part
+Picker dataset](https://github.com/docyx/pc-part-dataset) to feed ChatGPT with additional data. Special thanks to
 [Matthias](https://x.com/matthiasendler) for the tip!
 
-Finally I asked people who know this kind of stuff. Especially a friend, [Kleph](https://x.com/klephh), who helped me to
-make better choices and understand some of the specs.
+Finally, I asked some people who know this kind of stuff. In particular a friend, [Kleph](https://x.com/klephh), who
+helped me to make better choices and understand some specifications. Thanks!
 
-It takes a lot of time before finding the correct parts in a way that everything can work together! Then you need to
-balance the price with the performances depending on your needs. Now I can't wait to build it!
+It takes a lot of time to find the right parts so that everything can work together! Then you have to balance the price
+with the performance depending on your needs. Now I can't wait to build it!
 
 ## The operating system
 
-While I'm not a Windows fan, and rely a lot on WSL, I should say this OS comes with all the conveniences regarding video game development. But I miss Linux and I want to give it another try. So... will I join the Arch cult? With the efforts
-of Valve on the Steam Deck and the Steam OS, I have good hopes that Wine and Proton will be really helpful.
+Although I'm not a Windows fan and rely heavely on WSL, I have to say that this operating system has all the amenities
+needed for video game development. But I miss Linux and want to give it another try. So... will I join the Arch cult?
+With the Valve's efforts on the Steam Deck and the Steam OS, I have high hopes that Wine and Proton will really come in
+handy.
 
 ---
 
